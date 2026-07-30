@@ -2,6 +2,7 @@
 description: |
   Fetches an Azure DevOps work item via the rpdevops MCP server and produces a scored quality evaluation report (7-category weighted matrix) captured as workflow output (agent artifact).
 engine: claude
+model: claude-sonnet-5
 name: User Story Evaluation
 network:
   allowed:
